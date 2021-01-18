@@ -1,0 +1,14 @@
+.footer__link-wrapper {
+    list-style-type: none;
+    margin: 0px; 
+    padding: 0px; 
+    display: flex; 
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 425px) {
+    .footer__link-wrapper {
+       flex-direction: column;
+    }
+    
+}

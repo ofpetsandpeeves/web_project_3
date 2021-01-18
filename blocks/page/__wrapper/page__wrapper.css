@@ -1,0 +1,12 @@
+.page__wrapper {
+    width: calc(100% - 96px); 
+    max-width: 1184px; 
+    margin: auto; 
+}
+
+@media screen and (max-width: 1023px) and (min-width: 300px) {
+    .page__wrapper {
+        width: 100%;  
+    }
+}
+
