@@ -1,4 +1,4 @@
-.footer__link-wrapper {
+.footer__wrapper {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 425px) {
-    .footer__link-wrapper {
+    .footer__wrapper {
        flex-direction: column;
     }
     

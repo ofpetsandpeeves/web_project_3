@@ -1,9 +1,9 @@
-.header__logo {
+.logo {
     color: white;
 }
 
 @media screen and (max-width: 768px) and (min-width: 320px) {
-    .header__logo {
+    .logo {
       width: 156px;
       height: 36px;
     }
