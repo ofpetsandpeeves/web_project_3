@@ -1,25 +1,25 @@
-@import url("./__image/place__image.css"); 
-@import url("./__link/place__link.css"); 
-@import url("./__paragraph/place__paragraph.css"); 
-@import url("./__title/place__title.css"); 
-@import url("./__url-heading/place__url-heading.css"); 
-@import url("./__website/place__website.css"); 
-@import url("./__paragraph-container/place__paragraph-container.css"); 
+@import url("./__image/place__image.css");
+@import url("./__link/place__link.css");
+@import url("./__paragraph/place__paragraph.css");
+@import url("./__title/place__title.css");
+@import url("./__url-heading/place__url-heading.css");
+@import url("./__website/place__website.css");
+@import url("./__paragraph-container/place__paragraph-container.css");
 
 .place {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
-    margin-bottom: 80px; 
+    margin-bottom: 80px;
     }
 
 .place:last-child {
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
 }
 
 @media screen and (max-width: 768px) and (min-width: 425px) {
     .place {
-        margin-bottom: 72px; 
+        margin-bottom: 72px;
     }
 }
 
@@ -27,6 +27,6 @@
     .place {
         display: flex;
         flex-direction: column;
-        margin-bottom: 49px; 
+        margin-bottom: 49px;
     }
 }

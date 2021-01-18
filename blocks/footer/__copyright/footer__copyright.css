@@ -6,15 +6,15 @@
     line-height: 0.9;
     text-align: right;
     color: #FFFFFF;
-    margin: 0px; 
-    padding: 0px; 
+    margin: 0px;
+    padding: 0px;
     text-decoration: none;
 }
 
 @media screen and (max-width: 425px) {
     .footer__copyright {
-        text-align: left; 
+        text-align: left;
         margin: 48px 0px 0px 16px;
-        font-size: 14px; 
+        font-size: 14px;
     }
 }
