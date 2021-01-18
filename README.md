@@ -8,8 +8,10 @@ This is a project about traveling across the US. We've made it so all the elemen
 * CSS
 * BEM methodology 
 * Media queries for responsive web design 
+* Grid and flexbox
 
 ## Project Link ## 
+https://ofpetsandpeeves.github.io/web_project_3/index.html
 
 
 
