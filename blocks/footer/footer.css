@@ -2,7 +2,7 @@
 @import url("./__link/footer__link.css");
 @import url("./__wrapper/footer__wrapper.css");
 
-footer {
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,19 +11,19 @@ footer {
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
-    footer {
+    .footer {
         margin: 92px 48px 24px;
     }
 }
 
 @media screen and (max-width: 768px) and (min-width: 426px) {
-    footer {
+    .footer {
         margin: 88px 24px 24px;
     }
 }
 
 @media screen and (max-width: 425px) {
-    footer {
+    .footer {
         margin: 64px 0px 24px 0px;
         display: flex;
         flex-direction: column;
