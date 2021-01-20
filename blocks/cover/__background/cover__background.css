@@ -3,7 +3,6 @@
     background-size: cover;
     width: 100%;
     height: 100%;
-    z-index: 1;
     justify-content: center;
     flex-direction: column;
     display: flex;
@@ -11,7 +10,6 @@
     color: #FFFF;
     text-decoration: none;
     position: relative;
-    transition: all 1s linear;
 }
 
   
@@ -23,8 +21,9 @@
     height: 100%;
     top: 0;
     left: 0;
+    transition: all 1s linear;
   }
   
-  .cover__background:hover {
-    opacity: 0.8;
+  .cover__background:hover::before {
+    background-color: rgba(42, 44, 47, 0.8);
   } 
