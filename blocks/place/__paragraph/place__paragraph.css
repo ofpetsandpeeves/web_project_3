@@ -1,7 +1,7 @@
 .place__paragraph {
     line-height: 163%;
     margin-bottom: 27px;
-    margin-top: 0px; 
+    margin-top: 0px;
     padding: 0px;
 }
 
@@ -21,6 +21,6 @@
     }
 
     .place__paragraph:last-child {
-        margin: 0xp;
+        margin: 0px;
     }
 }
