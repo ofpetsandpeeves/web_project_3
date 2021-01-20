@@ -4,16 +4,13 @@
 @import url("./__title/lead__title.css"); 
 
 .lead {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 58px 100px 0px;
-    align-content: center;
+    margin: 0 auto; 
+
 }
 
-@media screen and (max-width: 1023px) and (min-width: 769px) {
+@media screen and (max-width: 1024px) and (min-width: 769px) {
     .lead {
-        margin: 58px 100px 92px;
+        margin: 58px 0px 92px;
     }
 }
 

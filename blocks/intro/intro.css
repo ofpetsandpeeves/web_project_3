@@ -7,11 +7,9 @@
 .intro {
     max-width: 690px;
     margin: 92px 100px 92px;
-    display: flex;
-    flex-direction: column;
 }
 
-@media screen and (max-width: 1023px) and (min-width: 770px) {
+@media screen and (max-width: 1023px) and (min-width: 769px) {
     .intro {
         margin: 92px 100px 92px;
     }
@@ -24,6 +22,6 @@
 }
 @media screen and (max-width: 425px) {
     .intro {
-        margin: 64px 16px 64px;
+        margin: 64px 16px; 
     }
 }

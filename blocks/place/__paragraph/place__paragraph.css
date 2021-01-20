@@ -1,17 +1,26 @@
 .place__paragraph {
-    font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1280 - 300)));
     line-height: 163%;
-    color: #FFFFFF;
-    margin: 0px 0px 27px 40px;
+    margin-bottom: 27px;
+    margin-top: 0px; 
     padding: 0px;
+}
+
+.place__paragraph:last-child {
+    margin-bottom: 0px; 
+}
+
+@media screen and (max-width: 1280px) {
+    .place__paragraph {
+        font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1280 - 300)));
+    }
 }
 
 @media screen and (max-width: 766px) {
     .place__paragraph {
-        margin: 0px 16px 25px;
+        margin: 0px 0px 25px;
     }
 
     .place__paragraph:last-child {
-        margin: 0px 16px 0px;
+        margin: 0xp;
     }
 }

@@ -2,16 +2,16 @@
 @import url("./__background/cover__background.css"); 
 @import url("./__subtitle/cover__subtitle.css");
 @import url("./__title/cover__title.css");
-@import url("./__text-wrapper/cover__text-wrapper.css");
 
 .cover {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 740px;
-    position: relative;
+    z-index: 1; 
+}
+
+.cover:hover {
+    background-color: rgba(42, 44, 47, 0.3);
+    transition: all 1s linear; 
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -28,7 +28,7 @@
     }
 }
 
-@media screen and (max-width: 766px) and (min-width: 300px) {
+@media screen and (max-width: 767px) {
     .cover {
         width: 100%;
         height: 220px;       

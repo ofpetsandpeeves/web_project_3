@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
+    grid-gap: 40px 48px; 
     margin-bottom: 80px;
     }
 
@@ -23,10 +24,11 @@
     }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 767px) {
     .place {
         display: flex;
         flex-direction: column;
         margin-bottom: 49px;
+        grid-gap: 48px 28px; 
     }
 }
