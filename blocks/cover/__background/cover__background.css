@@ -1,6 +1,6 @@
 .cover__background {
     background: url("../../../images/cover-route-66.jpg") no-repeat center;
-    object-fit: contain;
+    background-size: cover;
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -11,10 +11,11 @@
     color: #FFFF;
     text-decoration: none;
     position: relative;
+    transition: all 1s linear;
 }
 
   
-  .cover__background:hover::before {
+  .cover__background::before {
     content: "";
     position: absolute;
     background-color: rgba(42, 44, 47, 0.3);
@@ -24,6 +25,6 @@
     left: 0;
   }
   
-  .cover__background:hover::after {
+  .cover__background:hover {
     opacity: 0.8;
   } 
