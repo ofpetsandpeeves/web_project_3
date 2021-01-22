@@ -4,24 +4,18 @@
 @import url("./__title/lead__title.css"); 
 
 .lead {
-    margin: 0 auto;
+    margin: 58px 148px 0px;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1024px) {
     .lead {
-        margin: 58px 0px 92px;
+        margin: 50px 48px 0px;
     }
 }
 
-@media screen and (max-width: 768px) and (min-width: 426px) {
+@media screen and (max-width: 768px) {
     .lead {
-        margin: 50px 0px 88px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .lead {
-        margin: 50px 0px 64px;
+        margin: 50px 0px 0px;
     }
 }
 
