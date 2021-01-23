@@ -17,14 +17,12 @@
 
 @media screen and (max-width: 768px) {
     .cover {
-        height: 480px;
-        margin: 0px;   
+        height: 480px;  
     }
 }
 
 @media screen and (max-width: 475px) {
     .cover {
         height: 200px;
-        margin: 0px;
     }
 } 
